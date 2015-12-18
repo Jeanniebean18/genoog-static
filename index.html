@@ -160,7 +160,7 @@
       <style type="text/css">
       .st0{fill:none;stroke:#E6E7E8;stroke-width:12;stroke-miterlimit:10;stroke-dasharray:12;}
       .st1{fill:#E6E7E8;}
-      .st2{fill:#A6C2E5;}
+      .st2{fill:#547FBF;}
       .st3{font-family: 'Open Sans', sans-serif;}
       .st4{font-size:42px;}
       .st5{fill:none;stroke:#E6E7E8;stroke-width:12;stroke-miterlimit:10;}
@@ -439,10 +439,13 @@
 <div id="form_container" class="center">
   <form action="/contacts" method="post"> 
     <br><input type="name" class="form" placeholder="YOUR NAME" name="name" value="" required></p>
-    <br> <input type="email" class="form" placeholder="YOUR EMAIL" name="email" value="" required></p>
-    <br> <input type="textarea" class="form message" placeholder="MESSAGE" name="message" value="" required>
+    <br><input type="email" class="form" placeholder="YOUR EMAIL" name="email" value="" required></p>
+    <br>
+    <textarea form ="form_container" class="form message" name="message" placeholder="MESSAGE" value="" cols="35" wrap="soft" required></textarea>
+    <!-- <br> <input type="textarea" class="form message" placeholder="MESSAGE" name="message" value="" required> -->
     <br><input type="hidden" name="date" value=""> <input type="submit" value="send" class="submit"> 
   </form>
+  
           
 </div>
 <!-- close try it section -->

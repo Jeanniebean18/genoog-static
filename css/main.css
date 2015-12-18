@@ -21,9 +21,10 @@
 #header {
   position:fixed;
   top:0;
-  height:100px;
+  height:105px;
   width:100%;
-  background-color:#547FC0;
+  background-color:#414141;
+  z-index:5000;
   
 }
 
@@ -339,8 +340,8 @@ h5 {
 
 nav {
   position:absolute;
-  top:0;
-  right:40px;
+  top:-15px;
+  right:10px;
 }
 
 .social {
@@ -349,6 +350,15 @@ nav {
   width:40px;
   margin-left:-25px;
   margin-right:-25px;
+}
+
+#hamburger {
+  display:none;
+  position:absolute;
+  width:40px;
+  z-index:2000;
+  left:10px;
+  top:20px;
   
 }
 
@@ -389,8 +399,8 @@ footer {
 
 #headerlogo{
   position:absolute;
-  top:0;
-  height:100px;
+  top:-8px;
+  height:83px;
   width:100px;
 }
 
@@ -471,22 +481,34 @@ footer {
   nav {
     display:none;
   }
+  #header {
+    position:fixed;
+    top:0;
+    height:50px;
+    width:100%;
+    background-color:#414141;
+    z-index:5000;
+  
+  }
   
   #mobilemenu {
-    display:block;
+    display:none;
     position:absolute;
     top:0;
     left:0;
     width:100%;
     height:650px;
     background-color: rgba(84,128, 193, .95);
-    z-index:50000;
+    z-index:1000;
     color:white;
     text-align:center;
     font-family: 'Open Sans', sans-serif;
     font-size: 22px;
     font-weight:300;
-    line-height:35px;
+    line-height:45px;
+  }
+  #hamburger {
+    display:block;
   }
   
   h2 {
@@ -528,13 +550,8 @@ footer {
   
   }
   
-  #header {
-    position:relative;
-    top:0;
-    height:50px;
-    width:100%;
-    background-color:white;
-    
+  #nav {
+    display:none;
   
   }
   
@@ -701,6 +718,7 @@ footer {
   }
   #mobilemenu {
     height:550px;
+    line-height:35px;
   }
  
   #wrapper {

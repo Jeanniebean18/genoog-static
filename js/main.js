@@ -1,6 +1,4 @@
 
-
-
 var arrow = document.getElementById("arrow");
 var camera = document.getElementById("camera");
 var email = document.getElementById("email");
@@ -8,9 +6,26 @@ var list = document.getElementById("list");
 var cloud = document.getElementById("cloud");
 var to_cloud = document.getElementById("to_cloud");
 var from_cloud = document.getElementById("from_cloud");
+var hamburger = document.getElementById("hamburger");
+var mobilemenu = document.getElementById("mobilemenu");
 
 
 window.onscroll=inView;
+hamburger.onclick=mobileShow;
+
+function mobileShow(){
+  // roll out of top star
+  if (mobilemenu.style.display=="none") {
+    mobilemenu.setAttribute("class","animated slideInDown");
+    mobilemenu.style.display="block";
+  }
+  
+  else {
+    mobilemenu.style.display="none";
+  }
+}
+
+
   
   
 function inView(){

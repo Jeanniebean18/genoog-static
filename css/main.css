@@ -23,9 +23,7 @@
   position:relative;
   width:100%;
   z-index:500;
-  margin:0;
-  margin-top:-35px;
-  
+  padding-top:100px;
 }
 
 hr {
@@ -42,6 +40,7 @@ hr {
   width:100%;
   background-color:#414141;
   z-index:500;
+  
   
 }
 
@@ -410,9 +409,14 @@ footer {
   position:relative;
   width:100%;
   padding:3% 10% 3% 10%;
-  margin-top:100px
-/*  border:1px solid;*/
   
+}
+
+#thanks {
+  position:relative;
+  width:100%;
+  padding:3% 10% 3% 10%;
+ 
 }
 
 #headerlogo{
@@ -504,6 +508,13 @@ footer {
   
   #header {
     display:none;
+  }
+  
+  #systemrequirements {
+    position:relative;
+    width:100%;
+    z-index:500;
+    padding-top:0px;
   }
   
   #mobilemenu {

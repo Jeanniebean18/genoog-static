@@ -247,10 +247,9 @@ footer {
   height:350px;
 }
 #video.medicalsolutions {
-  position:relative;
-  width:100%;
+  
   background-color:#6BA643;
-  height:350px;
+  
 }
 
 #videotop {
@@ -300,13 +299,11 @@ footer {
   
   }
   
-
-  
-  
   #video_container {
-    
     width:576px;
     height:432px;
+    top:-150px;
+    
     
   }
  
@@ -317,6 +314,7 @@ footer {
   #video_container {
     width:448px;
     height:336px;
+    top:-150px;
   }
   #video {
     position:relative;
@@ -343,10 +341,12 @@ footer {
     width:100%;
     background-color:#A6C2E5;
     padding:3% 10% 10% 10%;
+    padding-bottom:50px;
   
   }
-  
-
+  #tryit.medicalsolutions {
+    padding-bottom:50px;
+  }
   
 }
 
@@ -371,7 +371,7 @@ footer {
   #video_container {
     width:448px;
     height:336px;
-    top:-100px;
+    top:-70px;
   }
   
   #videotop {
@@ -387,6 +387,7 @@ footer {
     width:100%;
     background-color:#547FC0;
     height:300px;
+    
   }
 
   

@@ -59,6 +59,14 @@ a {
   text-decoration:none;
   color:white;
 }
+a.blue {
+  text-decoration:none;
+  color:#547FC0;
+}
+a.blue:visited {
+  text-decoration:none;
+  color:#547FC0;
+}
 a:visited {
   text-decoration:none;
   color:white;
@@ -200,6 +208,9 @@ p.blue {
 #logo {
   width:180px;
 }
+#logo2 {
+  width:100px;
+}
 
 h2 {
   position:relative;
@@ -231,9 +242,10 @@ h4 {
   font-family: 'Varela Round', sans-serif;
   font-size: 35px;
   font-weight:300;
-  margin-bottom:25px;
-  line-height:0;
+  margin-bottom:-10px;
+  line-height:41px;
 }
+
 h4.white {
   color:white;
 }
@@ -386,6 +398,15 @@ nav {
   
 }
 
+#socialshare {
+  position:relative;
+  height:100px;
+  width:300px;
+/*  background-color:black;*/
+  z-index:5000;
+  margin-top:-190px;
+  
+}
 footer {
   position:relative;
   bottom:0;
@@ -435,6 +456,30 @@ footer {
   background-color:#A6C2E5;
   padding:3% 10% 3% 10%;
   
+}
+
+#video {
+  position:relative;
+  width:100%;
+  background-color:#547FC0;
+  height:400px;
+}
+
+#videotop {
+  position:relative;
+  width:100%;
+  background-color:white;
+  height:300px;
+  
+}
+
+#video_container {
+  position:relative;
+  width:640px;
+  height:480px;
+  background-color:black;
+  top:-200px;
+ 
 }
 
 #thankspage {
@@ -515,7 +560,7 @@ footer {
     position:relative;
     width:100%;
     z-index:500;
-    padding-top:0px;
+    padding-top:20px;
   }
   
   #mobilemenu {
@@ -569,6 +614,8 @@ footer {
   
   }
   
+
+  
   #contact {
     position:relative;
     width:100%;
@@ -586,6 +633,12 @@ footer {
   #headerlogo{
     display:none;
   }
+  #video_container {
+    
+    width:576px;
+    height:432px;
+    
+  }
  
  
 }
@@ -602,6 +655,16 @@ footer {
     display:none;
     
   
+  }
+  #video_container {
+    width:448px;
+    height:336px;
+  }
+  #video {
+    position:relative;
+    width:100%;
+    background-color:#547FC0;
+    height:250px;
   }
 
   h1 {
@@ -639,6 +702,7 @@ footer {
     margin-left:-80px;
     
   }
+  
   #tryit {
     position:relative;
     width:100%;
@@ -647,6 +711,7 @@ footer {
   
   }
   
+
   
 }
 
@@ -672,6 +737,7 @@ footer {
     -webkit-appearance:none;
   }
   
+ 
   .sentence {
     margin-left:-60px;
     
@@ -743,14 +809,42 @@ footer {
     margin-bottom:20px;
   }
 
+  #video_container {
+    width:448px;
+    height:336px;
+    top:-100px;
+  }
+  #videotop {
+    position:relative;
+    width:100%;
+    background-color:white;
+    height:200px;
+  
+  }
 
+  #video {
+    position:relative;
+    width:100%;
+    background-color:#547FC0;
+    height:300px;
+  }
   
 }
 
 @media (max-width: 414px){
   
 
+  #video_container {
+    width:320px;
+    height:240px;
+  }
   
+  #video {
+    position:relative;
+    width:100%;
+    background-color:#547FC0;
+    height:210px;
+  }
   #hero-image {
     position:relative;
     width:100%;
@@ -805,5 +899,12 @@ footer {
 
   
   
+}
+
+@media (max-width: 320px){
+  #video_container {
+    width:256px;
+    height:192px;
+  }
 }
 

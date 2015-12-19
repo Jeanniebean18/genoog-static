@@ -1,0 +1,436 @@
+@media (max-width: 3000px){
+  
+  html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+#home {
+  position:relative;
+  width:100%;
+  z-index:500;
+  margin:0;
+  /*  border:1px solid red;*/
+  
+}
+br.show {
+  display:none;
+}
+
+.center {
+  position:relative;
+  margin-right:auto;
+  margin-left:auto;
+  display:block;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration:none;
+  color:white;
+}
+a.blue {
+  text-decoration:none;
+  color:#547FC0;
+}
+a.blue:visited {
+  text-decoration:none;
+  color:#547FC0;
+}
+a:visited {
+  text-decoration:none;
+  color:white;
+}
+
+a:hover {
+  color:#547FC0;
+}
+
+h3:hover {
+  color:#3FA9F5;
+}
+
+/*clear fix*/
+.clearfix::after {
+  content:" ";
+  display:table;
+  clear:both;
+  
+}
+
+a.white {
+  color:white;
+}
+a.white:hover {
+  color:black;
+  
+}
+
+p {
+  position:relative;
+  color:#A7A9AC;
+  text-align:center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 21px;
+  font-weight:200;
+  line-height:30px;
+}
+
+p.left {
+  text-align:left;
+}
+p.blue {
+  color:#547FC0;
+}
+
+
+#logo {
+  width:180px;
+}
+#logo2 {
+  width:120px;
+}
+#logo2.medicalsolutions {
+  width:160px;
+}
+
+h2 {
+  position:relative;
+  color:white;
+  text-align:center;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 31px;
+  font-weight:300;
+  margin-bottom:30px;
+}
+.sentence {
+  margin-left:-130px;
+}
+
+
+h3 {
+  position:relative;
+  color:white;
+  text-align:center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight:300;
+}
+
+h4 {
+  position:relative;
+  color:#547FC0;
+  text-align:center;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 35px;
+  font-weight:300;
+  margin-bottom:-10px;
+  line-height:41px;
+}
+
+h4.white {
+  color:white;
+}
+h4.blue {
+  color:#547FC0;
+}
+p.white {
+  color:white;
+}
+button.blue {
+  border-radius:7px;
+  background-color:#547FC0;
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  border:none;
+  padding:15px;
+  -webkit-appearance:none;
+}
+button.medicalsolutions {
+  border-radius:7px;
+  background-color:#6BA643;
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  border:none;
+  padding:15px;
+  -webkit-appearance:none;
+}
+
+
+
+
+.submit {
+  float:right;
+  background-color:#A6C2E5;
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  border:none;
+  padding:15px;
+  margin-top:15px;
+  margin-right:0px;
+  border-radius:10px;
+  -webkit-appearance:none;
+}
+
+.submit:hover {
+  background-color:#547FC0;
+  color:white;
+}
+button:hover {
+  background-color:#BCBEC0;
+  color:white;
+}
+button.blue.login:hover {
+  background-color:#BCBEC0;
+  color:white;
+}
+
+footer {
+  position:relative;
+  bottom:0;
+  color:#BCBEC0;
+  background-color:#F4F4F4;
+  text-align:center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight:300;
+  padding:2%;
+  
+}
+
+
+#pagebody {
+  position:relative;
+  width:100%;
+  padding:3% 10% 3% 10%;
+}
+
+
+
+#headerlogo{
+  display:block;
+  position:absolute;
+  top:-8px;
+  height:120px;
+  width:100px;
+  left:15px;
+}
+
+#tryit {
+  position:relative;
+  width:100%;
+  background-color:#A6C2E5;
+  padding:3% 10% 3% 10%;
+  
+}
+
+#tryit.medicalsolutions {
+  position:relative;
+  width:100%;
+  background-color:#AED9CF;
+  padding:3% 10% 3% 10%;
+  
+}
+
+#video {
+  position:relative;
+  width:100%;
+  background-color:#547FC0;
+  height:350px;
+}
+#video.medicalsolutions {
+  position:relative;
+  width:100%;
+  background-color:#6BA643;
+  height:350px;
+}
+
+#videotop {
+  position:relative;
+  width:100%;
+  background-color:white;
+  height:300px;
+  
+}
+
+#video_container {
+  position:relative;
+  width:640px;
+  height:480px;
+  background-color:black;
+  top:-175px;
+ 
+}
+
+
+@media (max-width: 1800px){
+  
+
+
+
+
+@media (max-width: 1059px){
+
+  
+  
+
+  h4 {
+    position:relative;
+    color:#547FC0;
+    text-align:center;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 40px;
+    font-weight:300;
+    margin-bottom:25px;
+    line-height:39px;
+  }
+  #tryit {
+    position:relative;
+    width:100%;
+    background-color:#A6C2E5;
+    padding:3% 10% 10% 10%;
+  
+  }
+  
+
+  
+  
+  #video_container {
+    
+    width:576px;
+    height:432px;
+    
+  }
+ 
+ 
+}
+@media (max-width: 800px){
+ 
+  #video_container {
+    width:448px;
+    height:336px;
+  }
+  #video {
+    position:relative;
+    width:100%;
+    background-color:#547FC0;
+    height:250px;
+  }
+
+
+  h1 {
+    position:relative;
+    color:white;
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    font-weight:700;
+    line-height:50px;
+    margin-bottom:0px;
+  
+  }
+  
+  #tryit {
+    position:relative;
+    width:100%;
+    background-color:#A6C2E5;
+    padding:3% 10% 10% 10%;
+  
+  }
+  
+
+  
+}
+
+@media (max-width: 600px){
+
+ 
+  br.show {
+    display:block;
+  }
+ 
+  #tryit {
+    position:relative;
+    width:100%;
+    background-color:#A6C2E5;
+    padding:3% 10% 10% 10%;
+  
+  }
+  br.show {
+    display:block;
+  }
+  
+  #video_container {
+    width:448px;
+    height:336px;
+    top:-100px;
+  }
+  
+  #videotop {
+    position:relative;
+    width:100%;
+    background-color:white;
+    height:200px;
+  
+  }
+
+  #video {
+    position:relative;
+    width:100%;
+    background-color:#547FC0;
+    height:300px;
+  }
+
+  
+}
+
+@media (max-width: 414px){
+  
+
+  #video_container {
+    width:320px;
+    height:240px;
+  }
+  
+  #video {
+    position:relative;
+    width:100%;
+    background-color:#547FC0;
+    height:210px;
+  }
+  
+  h4 {
+    position:relative;
+    color:#547FC0;
+    text-align:center;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 40px;
+    font-weight:300;
+    margin-bottom:25px;
+    line-height:39px;
+  }
+  #logo {
+    width:180px;
+    margin-bottom:-20px;
+    margin-top:30px;
+  }
+
+  
+  
+}
+
+@media (max-width: 320px){
+  #video_container {
+    width:256px;
+    height:192px;
+  }
+}
+

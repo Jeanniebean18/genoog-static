@@ -1841,6 +1841,55 @@
   
 }
 
+.slidingVertical2 {
+	display: inline;
+	text-indent: 100px;
+  margin-left:170px;
+}
+
+
+.slidingVertical3{
+	display: inline;
+	text-indent: 3px;
+  
+}
+
+.slidingVertical3 span{
+	animation: topToBottom 13.5s linear infinite 0s;
+	-ms-animation: topToBottom 13.5s linear infinite 0s;
+	-webkit-animation: topToBottom 13.5s linear infinite 0s;
+	color: #A6C2E5;
+  opacity: 0;
+	overflow: hidden;
+	position: absolute;
+  
+  
+}
+.slidingVertical3 span:nth-child(2){
+	animation-delay: 3.5s;
+	-ms-animation-delay: 3.5s;
+	-webkit-animation-delay: 3.5s;
+}
+.slidingVertical3 span:nth-child(3){
+	animation-delay: 6s;
+	-ms-animation-delay: 6s;
+	-webkit-animation-delay: 6s;
+  
+}
+.slidingVertical3 span:nth-child(4){
+	animation-delay: 8.5s;
+	-ms-animation-delay: 8.5s;
+	-webkit-animation-delay: 8.5s;
+  
+  
+}
+.slidingVertical3 span:nth-child(5){
+  animation-delay: 11s;
+  -ms-animation-delay: 11s;
+  -webkit-animation-delay: 11s;
+  
+}
+
 /*topToBottom Animation*/
 @-moz-keyframes topToBottom{
 	0% { opacity: 0; }

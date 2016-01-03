@@ -3,13 +3,12 @@
 <head>
   <html lang="en">
   <!-- METADATA -->
-   <title>login | video software for professionals</title>
+   <title>register | video software for professionals</title>
    <meta charset="utf-8">
    <meta name="HandheldFriendly" content="True">
    <meta name="MobileOptimized" content="320">
    <meta name="viewport" content="initial-scale=1">
-   <meta name="description" content="Login to your genoog account. Try it for free.
- " />
+   <meta name="description" content="register for your free genoog account." />
    <meta property="image" content="assets/genoogfacebook.jpg"/>
    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
@@ -18,30 +17,22 @@
    <meta property="og:locale" content="en_US"/>
    <meta property='fb:admins' content='1499820013'/>
    <meta property="og:type" content="article"/>
-   <meta property="og:title" content="login | video software for professionals"/>
-   <meta property="og:description" content="Login to your genoog account. Try it for free."/>
+   <meta property="og:title" content="register | video software for professionals"/>
+   <meta property="og:description" content="register for your free genoog account."/>
    <meta property="og:url" content="http://www.genoog.com"/>
    <meta property="og:image" content="assets/genoogfacebook.jpg"/>
-   <meta property='og:site_name' content="login | video software for professionals"/>
+   <meta property='og:site_name' content="register | video software for professionals"/>
    <meta name="twitter:card" content="summary">
    <meta name="twitter:creator" content="@********">
-   <meta name="twitter:title" content="login | video software for professionals">
-   <meta name="twitter:description" content="Login to your genoog account. Try it for free.">
+   <meta name="twitter:title" content="register | video software for professionals">
+   <meta name="twitter:description" content="register for your free genoog account.">
    <meta name="twitter:image" content="assets/genoogtwitter.jpg"/>
     <!-- ICONS -->
     <link href="assets/favicon.ico" rel="shortcut icon">
-
-
-
     <!-- STYLESHEETS-->
-  
- 
-    <link rel="stylesheet" type="text/css" media="all" href="css/main.css?v.13" />
-    <link rel="stylesheet" type="text/css" media="all" href="css/animate.css?v.13" />
-  
-  
-    <!-- fonts -->
-  
+    <link rel="stylesheet" type="text/css" media="all" href="css/main.css?v.15" />
+    <link rel="stylesheet" type="text/css" media="all" href="css/animate.css?v.15" />
+    <!-- FONTS -->
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
@@ -55,13 +46,13 @@
   <!-- mobile nav -->
   <div id="mobilemenu">
     
-      <a href="./index.html">home</a>
+      <a href="..home/index.html">home</a>
     </br>
     <br>
-      <a href="./requirements.html">download</a>
+      <a href="../home/download.html">download</a>
     </br>
     <br> 
-      <a href="./index.html#contact">contact</a>
+      <a href="../home/index.html#contact">contact</a>
     </br>  
     <br> 
       <a target="blank" href="https://www.facebook.com/Genoog-720376484694318/">
@@ -81,16 +72,16 @@
   </div>
   <!-- mobile nav end -->
   <div id="header">
-    <a href="./index.html"><img src="assets/genooglogo3.svg" id="headerlogo"></a>
+    <a href="../home/index.html"><img src="assets/genooglogo3.svg" id="headerlogo"></a>
     <nav>
       <br>
       <ul>
         <h3>
           <li>
-            <a href="./requirements.html">download</a>
+            <a href="../home/download.html">download</a>
           </li>
           <li> 
-            <a href="./index.html#contact">contact</a>
+            <a href="../home/index.html#contact">contact</a>
           </li>  
           <li> 
             <a target="blank" href="https://www.facebook.com/Genoog-720376484694318/">
@@ -114,20 +105,37 @@
   
   <section id="pagebody">
     <h1 class="pages">
-    login to your genoog account
+    create your genoog account
     </h1>
     <div id="login_form" class="center">
-      <form action="/contacts" method="post"> 
-        <br><input type="name" class="form" placeholder="YOUR NAME" name="name" value="" required></p>
-        <br><input type="email" class="form" placeholder="YOUR EMAIL" name="email" value="" required></p>
-        <input type="hidden" name="date" value=""> <input type="submit" value="login" class="submit"> 
-      </form>
-    </div>
-    <br>
-    <a href="#"><p>or register for an account</p></a>
-    <a href="#"> <p>reset password</p></a>
-  </section>
-          
+      <form method="post" role="form" action="/Account/Register">
+              <div class="validation-summary-valid" data-valmsg-summary="true"><ul><li style="display:none"></li>
+      </ul></div>
+              <input type="text" class="form" placeholder="DISPLAY NAME" name="Name" value="" required data-val="true" data-val-length="The Display Name must be at least 2 characters long." data-val-length-max="32" data-val-length-min="2" data-val-required="The Display Name field is required." id="Name">
+              <span class="field-validation-valid" data-valmsg-for="Name" data-valmsg-replace="true"></span>
+              <br /><br /><br />
+
+              <input type="email" class="form" placeholder="EMAIL" name="Email" value="" required data-val="true" data-val-email="The Email field is not a valid e-mail address." data-val-required="The Email field is required." id="Email">
+              <span class="field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+              <br /><br /><br />
+
+              <input type="password" class="form" placeholder="PASSWORD" name="Password" value="" required data-val="true" data-val-length="The Password must be at least 8 characters long." data-val-length-max="100" data-val-length-min="8" data-val-required="The Password field is required." id="Password">
+              <span class="field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true"></span>
+              <br /><br /><br />
+
+              <input type="password" class="form" placeholder="CONFIRM PASSWORD" name="ConfirmPassword" value="" required data-val="true" data-val-equalto="The password and confirmation password do not match." data-val-equalto-other="*.Password" id="ConfirmPassword">
+              <span class="field-validation-valid" data-valmsg-for="ConfirmPassword" data-valmsg-replace="true"></span>
+              <br /><br />
+              <input type="submit" value="register" class="submit">
+              <br /><br /><br />
+          <input name="__RequestVerificationToken" type="hidden" value="CfDJ8OkKXhUDWAFFjylcJpwhX-MLfeuQYJq6Yqj2XGW8brBm282EvsynFzReTi4Kg6F3EpzDZzhBPwp6V2-0qspAFHn4sqXdhyEShmwycrYQs9-pGAvL5EcAfR94MFwdj44CDSbOQJHHIfD7Y6lSbs7HcuY" />
+        </form>
+          </div>
+          <a href="./reset-password"> <p>or login</p></a>
+      </section>
+      
+    
+  
             <footer>
               <img src="assets/genooglogo2.svg" width="100px" class="center">
               copyright 2015 genoog is a video app for professionals and small business owners that allows you to send personalized videos via email.

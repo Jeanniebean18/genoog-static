@@ -1801,7 +1801,7 @@
 /*Vertical Sliding*/
 .slidingVertical{
 	display: inline;
-	text-indent: 3px;
+	text-indent: 10px;
   
 }
 
@@ -1841,11 +1841,7 @@
   
 }
 
-.slidingVertical2 {
-	display: inline;
-	text-indent: 100px;
-  margin-left:170px;
-}
+
 
 
 .slidingVertical3{
